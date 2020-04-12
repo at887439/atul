@@ -12,14 +12,12 @@ double pageFaultRate;
 double service_page_fault_empty_ns;
 double service_page_fault_modified_ns;
 double times_page_modified_per;
-	
-
-void main(){
+void main()
+{
 	int swtch;
 	
-	do{
-	
-	
+	do
+  {
 	printf("Select the required option \n");
 	printf("1.Find the PageFault Rate\n");
 	printf("2.Exit");
@@ -60,7 +58,8 @@ void userInput(){
 
 }
 
-double page_fault_rate(double servicePageFaultEmpty,double servicePageFaultMod,double memAccess,double timesPages,double effAccess){
+double page_fault_rate(double servicePageFaultEmpty,double servicePageFaultMod,double memAccess,double timesPages,double effAccess)
+{
 	double assume,serve;
 	double numErator,denOminator;
 	double pageFault;
