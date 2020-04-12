@@ -1,8 +1,4 @@
-
 #include <stdio.h> #include <stdlib.h> double page_fault_rate(); void userInput(void); 
- 
-double service_page_fault_empty; double service_page_fault_modified; double mem_access_time; double times_page_modified; double effective_access_time; double pageFaultRate; double service_page_fault_empty_ns; double service_page_fault_modified_ns; double times_page_modified_per; 
- 	 
  
 void main(){ 
  	int swtch; 
